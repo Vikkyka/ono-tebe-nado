@@ -20,7 +20,7 @@
     list-style-type: none;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
     text-decoration: none;
 }
 
@@ -234,8 +234,8 @@ h2 {
 .about__logo {
     grid-row: 1;
     grid-column: 1;
-    background-color: #000000; 
-    width: 240px; 
+    background-color: #000000;
+    width: 240px;
     height: 240px;
     border-radius: 125px;
     display: flex;
@@ -243,7 +243,7 @@ h2 {
 }
 
 .about__logo-image {
-    width: 148px; 
+    width: 148px;
     height: 114px;
     margin: auto;
 }
@@ -289,8 +289,8 @@ footer {
     grid-column: 3;
 }
 
-.footer__menu-list{
-    list-style-type: none; 
+.footer__menu-list {
+    list-style-type: none;
 }
 
 .footer__menu-link_active {
