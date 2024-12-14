@@ -14,49 +14,49 @@
     <header class="header">
       <nav>
         <ul class="header__menu">
-          <li class="header__link"><a href="" class="header__links-list-item_no-bullit">главная</a></li>
-          <li><a href="" class="header__link_active">посмотреть лоты</a></li>
-          <li><a href="" class="header__link_active">об аукционе</a></li>
+          <li class="link"><a href="" class="link_active header__links-list-item_no-bullit">главная</a></li>
+          <li><a href="" class="link_active">посмотреть лоты</a></li>
+          <li><a href="" class="link_active">об аукционе</a></li>
         </ul>
       </nav>
       <a>
         <img
-          style="width: 148px; height: 105px"
+          class="logo"
           src="images/logo-black.svg"
           alt="Логотип"
         >
       </a>
       <address class="contacts">
-        <a class="header__link_active" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="header__link_active" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <a class="header__link" href="">наб. Принсенграхт 263-<br> 265, Амстердам</a>
+        <a class="link_active" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="link_active" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="link" href="">наб. Принсенграхт 263-<br> 265, Амстердам</a>
       </address>
     </header>
 
     <main>
       <!-- cover -->
       <section class="cover">
-        <div class="overlay">
+        <div class="overlay"></div>
           <h1 class="cover__title">
             <span class="aligned-text">он<span class="letter-spacing-extended">о</span></span>
             <span class="aligned-text aligned-text_center">теб<span class="letter-spacing-extended">е</span></span>
-            <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>адо</span>
+            <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="letter-spacing-none">о</span></span>
           </h1>
           <div class="cover__description">
             <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-            <button class="bet-button">Сделать ставку</button>
+            <button class="bet-button" type="button">Сделать ставку</button>
           </div>
-        </div>
+        
       </section>
       <!-- lots -->
       <section class="lots">
-        <header class="lots__heading">
-          <h2>лоты</h2>
-        </header>
+        <h2 class="lots__heading">
+          лоты
+        </h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a href="" class="card-link card_type_film">
-              <div class="overlay">
+              <div class="overlay"></div>
                 <article class="card"> 
                   <h3 class="card__title">
                     Фильм режиссёра, который бросил киношколу
@@ -66,12 +66,12 @@
                     ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                   </p>
                 </article>
-              </div>
+              
             </a>
           </li>
           <li class="lots__card-list-item "> 
             <a href="" class="card-link card_type_book">
-              <div class="overlay">
+              <div class="overlay"></div>
                 <article class="card"> 
                   <h3 class="card__title">
                     Книга, где описан один скучный день из жизни рекламного агента
@@ -84,12 +84,12 @@
                     бы вы поставили на «Улисса» Джеймса Джойса?
                   </p>
                 </article>
-              </div>
+              
             </a>
           </li>
           <li class="lots__card-list-item"> 
             <a href="" class="card-link card_type_picture">
-              <div class="overlay">
+              <div class="overlay"></div>
                 <article class="card"> 
                   <h3 class="card__title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
@@ -101,7 +101,7 @@
                     из революционных работ Кандинского?
                   </p>
                 </article>
-              </div>
+              
             </a>
           </li>
         </ul>
@@ -116,7 +116,7 @@
             alt="Логотип"
           >
         </a>
-          <h4 class="about__title">Об аукционе</h4>
+          <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -138,34 +138,40 @@
     </main>
     <footer>
       <address class="contacts">
-        <a class="header__link_active" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="header__link_active" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <a class="header__link" href="">наб. Принсенграхт 263- 265, Амстердам</a>
+        <a class="link_active" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="link_active" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="link" href="">наб. Принсенграхт 263- 265, Амстердам</a>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li><a href="" class="footer__menu-link_active">главная</a></li>
+          <li><a href="" class="footer__menu-link footer__menu-link_active">главная</a></li>
           <li><a href="" class="footer__menu-link">посмотреть лоты</a></li>
           <li><a href="" class="footer__menu-link">об аукционе</a></li>
         </ul>
       </nav>
-      <a class="footer__social-list">
-        <img
-          class="footer__social-icon"
-          src="images/yt.svg"
-          alt="Ссылка на Ютуб"
-        >
-        <img
-          class="footer__social-icon"
-          src="images/vk.svg"
-          alt="Ссылка на ВК"
-        >
-        <img
-          class="footer__social-icon"
-          src="images/pinterest.svg"
-          alt="Ссылка на Пинтерест"
-        >
-      </a>
+      <aside class="footer__social-list">
+        <a>
+          <img
+            class="footer__social-icon"
+            src="images/yt.svg"
+            alt="Ссылка на Ютуб"
+          >
+        </a>
+        <a>
+          <img
+            class="footer__social-icon"
+            src="images/vk.svg"
+            alt="Ссылка на ВК"
+          >
+        </a>
+        <a>
+          <img
+            class="footer__social-icon"
+            src="images/pinterest.svg"
+            alt="Ссылка на Пинтерест"
+          >
+        </a>
+      </aside>
     </footer>
   </body>
 </html>
